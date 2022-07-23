@@ -25,6 +25,7 @@
   color: #f9FAF8;
   font-size: 18px;
   font-family: sans-serif;
+  padding-bottom: 18px;
 }
 
 .hero__body {
@@ -76,5 +77,41 @@
 }
 
 .hero__body__img {
+  width: 100%;
+}
+
+.cards {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 24px 72px;
+}
+
+.cards__header {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 900;
+  font-family: sans-serif;
+  color: #1f2937;
+  padding: 36px;
+}
+
+.cards__container {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.cards__block {
+  text-align: center;
+  width: 25%;
+  font-family: sans-serif;
+  color: #4E5562;
+  flex: 1;
+}
+
+.cards__img {
+  border-radius: 10px;
+  border: 3px solid #3882F6;
+  margin-bottom: 4px;
   width: 100%;
 }
