@@ -4,9 +4,20 @@ body {
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
+  padding-top: 48px;
+  padding-bottom: 66px;
 }
 
 .header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+  background-color: #1f2937;
+}
+
+.header__content {
   display: flex;
   justify-content: space-between;
   padding: 12px;
@@ -136,11 +147,12 @@ body {
 .quote__text {
   font-size: 36px;
   font-style: italic;
-  font-weight: 100;
+  font-weight: 300;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
 
 .quote__signature {
-    font-weight: 700;
+  font-weight: 700;
   text-align: right;
   font-size: 28px;
 }
@@ -179,4 +191,10 @@ body {
   text-align: center;
   color: #E5E7EB;
   padding: 25px 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+  background-color: #1f2937;
 }
